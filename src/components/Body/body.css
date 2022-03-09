@@ -1,0 +1,59 @@
+.body {
+    display: flex;
+    border: 1px solid var(--border);
+    overflow:hidden;
+height:1%;
+    width: 55vw;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 0;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 80%;
+    
+  }
+  .body-icon {
+    flex: 1;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .body-info {
+    display: flex;
+    flex: 9;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px;
+    margin-top: 10px;
+    
+  }
+  .body-head {
+    display: flex;
+    justify-content: space-between;
+  }
+  .head-name {
+    text-align: start;
+    font-size: 170%;
+    font-weight: 600;
+  }
+  .body-date{
+      text-align: start;
+  }
+  .head-fav {
+    text-align: end;
+    cursor: pointer;
+    background-color: var(--accent);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 70%;
+    margin-right: 50px;
+    align-self: center;
+  }
+  .body-desc{
+      margin-right: 50px;
+      text-align: left;
+  }

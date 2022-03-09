@@ -1,0 +1,32 @@
+.mailbox-container{
+    margin: 30px;
+    margin-left: 40px;
+    color: var(--text);
+}
+
+.mailbox {
+    display: flex;
+  }
+  
+  .filter {
+    display: flex;
+    gap: 25px;
+    font-weight: 650;
+  }
+  .unread {
+    cursor: pointer;
+  }
+  .read {
+    cursor: pointer;
+  }
+  .favourites {
+    cursor: pointer;
+  }
+  .currentFilter{
+    background: var(--filter);
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
